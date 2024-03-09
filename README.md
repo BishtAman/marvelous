@@ -21,8 +21,8 @@ Development of The Marvelous began on March 9, 2024.
 
 To run the project locally, follow these steps:
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
+1. Clone this repository to your local machine using `git clone https://github.com/BishtAman/marvelous.git`.
+2. Navigate to the project directory using `cd marvelous`.
 3. Install dependencies using `npm install or npm i`.
 4. Start the development server using `npm run dev`.
 5. Open your browser and visit `http://localhost:5173` to view the website.
