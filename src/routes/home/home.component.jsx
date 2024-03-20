@@ -1,16 +1,14 @@
+import { Trending } from "../../components/base-trending/base-trending.component";
 import { Base } from "../../components/base/base.component";
-import { Navigation } from "../../components/navigation/navigation.component";
-import { Routes, Route } from "react-router-dom";
-import { Test } from "../../components/test/test";
+
+import { ListItem } from "../listItem/ListItem.component";
+
 export const Home = () => {
   return (
-    <div className="h-[100vh]">
-      <Routes>
-      <Navigation />
+    <main>
       <Base />
-
-        <Route path="/shop/*" element={<Test />} />
-      </Routes>
-    </div>
+      <Trending/>
+      <ListItem />
+    </main>
   );
 };
