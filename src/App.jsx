@@ -1,7 +1,12 @@
+import { Fragment } from "react";
+import { Home } from "./routes/home/home.component";
+import { Hotlist } from "./routes/hotlist/hotlist.component";
+
 export default function App() {
   return (
-    <h1 className="">
-      Hello world!
-    </h1>
-  )
+    <Fragment>
+      <Home />
+      <Hotlist/>
+    </Fragment>
+  );
 }
