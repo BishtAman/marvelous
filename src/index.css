@@ -52,7 +52,40 @@ body {
   color: red;
 }
 
-.base-text{
+.base-text {
   /* text-shadow: -1px 2px 10px rgba(0, 0, 0, 1); */
   text-shadow: 3px 2px 8px rgba(0, 0, 0, 1);
+}
+
+.character-card h1 {
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  color: #1b0606;
+  text-shadow: 0px 0px 13px rgb(37, 37, 37);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  -webkit-backdrop-filter: blur(14px) brightness(300%);
+  backdrop-filter: blur(14px) brightness(200%);
+
+}
+
+.character-card{
+position: relative;
+}
+
+.teirs{
+  opacity: 0.2;
+}
+
+.teirs:active{
+  opacity: 1;
+}
+.teirs:focus{
+  opacity: 1;
 }

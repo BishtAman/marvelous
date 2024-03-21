@@ -8,7 +8,7 @@ export const Navigation = () => {
     <Fragment>
       <nav className="nav-bar flex justify-evenly text-white font-bold items-center py-[35px]  z-[9999]">
         <motion.h1 whileTap={{ scale: 0.95 }} whileHover={{ scale: 1.1 }}>
-          <Link to="/test">CHARACTERS</Link>
+          <Link to="/home/characters">CHARACTERS</Link>
         </motion.h1>
 
         <motion.h1 whileTap={{ scale: 0.95 }} whileHover={{ scale: 1.1 }}>
@@ -17,7 +17,7 @@ export const Navigation = () => {
 
         <Link to="/">
           <motion.img
-            className="h-[50px] z-50"
+            className="h-[30px] z-50"
             whileTap={{ scale: 0.95 }}
             whileHover={{ scale: 1.1 }}
             src={Logo}
