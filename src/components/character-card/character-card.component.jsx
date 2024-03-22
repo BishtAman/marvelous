@@ -8,10 +8,10 @@ export const CharacterCard = ({ name, imageURL}) => {
       <motion.div
         whileTap={{ scale: 0.95 }}
         whileHover={{ scale: 1.1 }}
-        className="character-card text-black my-5 mx-5"
+        className="character-card text-black my-8 mx-5  "
       >
-        <img alt="Character" src={imageURL} className="h-[400px]" />
-        <h1>{name.toUpperCase()}</h1>
+        <img alt="Character" src={imageURL} className="h-[250px] " />
+        <h1 className=" h-[100px] py-[30px] px-5 font-extrabold rounded-br-[3.5rem] text-white">{name.toUpperCase()}</h1>
       </motion.div>
     </Link>
   );

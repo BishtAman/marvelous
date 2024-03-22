@@ -5,7 +5,7 @@ import { TeirS } from "../../components/teir-s/teir-s.component";
 export const Characters = () => {
 
 
-  return (
+  return ( 
     <div className="text-black">
       <div className="mt-10">
       <PageHeading heading={MCU} />
