@@ -17,16 +17,16 @@ export function SingleCharacter({ character }) {
         </p>
         <p className="font-semibold text-[18px]">
           Appeared in :{" "}
-          {character.movies.map((movies, index) => (
-            <span className="italic font-light" key={index}>
+          {character.movies.map((movies) => (
+            <span className="italic font-light" key={movies}>
               {movies},{" "}
             </span>
           ))}
         </p>
         <p className="font-semibold text-[18px]">
           Powers :{" "}
-          {character.powers.map((powers, index) => (
-            <span className="italic font-light" key={index}>
+          {character.powers.map((powers) => (
+            <span className="italic font-light" key={powers}>
               {powers},{" "}
             </span>
           ))}

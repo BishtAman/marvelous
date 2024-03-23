@@ -64,7 +64,7 @@ const CHARACTERS = [
       },
       {
         id: 13,
-        name: "Kang The Conqurer",
+        name: "Kang The Conqueror",
         imageURL: import("../assets/characters/all/kang.png"),
       },
       {
@@ -102,16 +102,7 @@ const CHARACTERS = [
         name: "The Watcher",
         imageURL: import("../assets/characters/all/watcher.png"),
       },
-      {
-        id: 21,
-        name: "Prime Ultron",
-        imageURL: import("../assets/characters/all/ultron.png"),
-      },
-      {
-        id: 22,
-        name: "He Who Remains",
-        imageURL: import("../assets/characters/all/he.png"),
-      },
+
     ],
   },
   {
@@ -233,52 +224,49 @@ const CHARACTERS = [
     title: "B Tier",
     characters: [
       {
-        id: 1,
         name: "Nebula",
         imageURL: import("../assets/characters/all/Nebula.png"),
       },
       {
-        id: 2,
         name: "Mantis",
         imageURL: import("../assets/characters/all/Mantis.png"),
       },
       {
-        id: 3,
-        name: "Drax",
+          name: "Drax",
         imageURL: import("../assets/characters/all/Drax.png"),
       },
       {
-        id: 4,
+
         name: "Groot",
         imageURL: import("../assets/characters/all/Groot.png"),
       },
       {
-        id: 5,
+
         name: "Giah",
         imageURL: import("../assets/characters/all/Giah.png"),
       },
       {
-        id: 6,
+
         name: "Gravik",
         imageURL: import("../assets/characters/all/Gravik.png"),
       },
       {
-        id: 7,
+
         name: "Auroboros",
         imageURL: import("../assets/characters/all/Auroboros.png"),
       },
       {
-        id: 8,
+
         name: "Miss Minutes",
         imageURL: import("../assets/characters/all/Minutes.png"),
       },
       {
-        id: 9,
+
         name: "Sylvie",
         imageURL: import("../assets/characters/all/Sylvie.png"),
       },
       {
-        id: 10,
+
         name: "Ms Marvel 2",
         imageURL: import("../assets/characters/all/2.png"),
       },
@@ -309,7 +297,7 @@ const CHARACTERS = [
       },
       {
         id: 16,
-        name: "T'hena",
+        name: "Thena",
         imageURL: import("../assets/characters/all/hena.png"),
       },
       {
@@ -499,7 +487,7 @@ const CHARACTERS = [
       },
       {
         id: 7,
-        name: "M'Baku",
+        name: "M Baku",
         imageURL: import("../assets/characters/all/Baku.png"),
       },
       {

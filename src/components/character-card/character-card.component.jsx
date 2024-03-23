@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const CharacterCard = ({ name, imageURL}) => {
 
   return (
-    <Link to={`/home/characters/${name.toLowerCase()}`}>
+    <Link to={`/home/characters/${name.toLowerCase()}`} > 
       <motion.div
         whileTap={{ scale: 0.95 }}
         whileHover={{ scale: 1.1 }}

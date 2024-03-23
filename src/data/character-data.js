@@ -24,7 +24,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Iron Man",
     imageName: "iron",
-    imageURL:import("../assets/characters/all/iron.png"),
+    imageURL: import("../assets/characters/all/iron.png"),
     about:
       "Iron Man (Tony Stark) is a fictional superhero appearing in American comic books published by Marvel Comics. He is a billionaire industrialist and genius inventor who creates a powered suit of armor to save his life and fight crime.",
     movies: [
@@ -53,7 +53,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Hulk",
     imageName: "hulk",
-    imageURL:import("../assets/characters/all/hulk.png"),
+    imageURL: import("../assets/characters/all/hulk.png"),
     about:
       "Hulk (Bruce Banner) is a fictional superhero appearing in American comic books published by Marvel Comics. He is a scientist who, due to exposure to gamma radiation, transforms into a giant, green, muscular humanoid with incredible strength when experiencing intense anger or emotional stress.",
     movies: [
@@ -81,7 +81,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Thor",
     imageName: "thor",
-    imageURL:import("../assets/characters/all/thor.png"),
+    imageURL: import("../assets/characters/all/thor.png"),
     about:
       "Thor is a fictional superhero appearing in American comic books published by Marvel Comics. He is based on the Norse deity of the same name and is the Asgardian god of thunder. Thor possesses the enchanted hammer Mjolnir, which grants him the ability to fly and manipulate weather, among his other superhuman attributes.",
     movies: [
@@ -110,7 +110,7 @@ const CHARACTERS_DETAILS = [
     id: 5,
     name: "Loki",
     imageName: "loki",
-    imageURL:import("../assets/characters/all/loki.png"),
+    imageURL: import("../assets/characters/all/loki.png"),
     about:
       "Loki is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Stan Lee, scripter Larry Lieber, and penciller Jack Kirby, the character first appeared in Venus #6 (August 1949).",
     movies: [
@@ -138,7 +138,7 @@ const CHARACTERS_DETAILS = [
     id: 6,
     name: "Captain America",
     imageName: "america",
-    imageURL:import("../assets/characters/all/america.png"),
+    imageURL: import("../assets/characters/all/america.png"),
     about:
       "Captain America (Steve Rogers) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941).",
     movies: [
@@ -154,7 +154,7 @@ const CHARACTERS_DETAILS = [
       "Steve Rogers",
       "The Sentinel of Liberty",
       "The Star-Spangled Avenger",
-    ], 
+    ],
     powers: [
       "Peak human strength, speed, agility, stamina, and durability",
       "Master martial artist and hand-to-hand combatant",
@@ -169,7 +169,7 @@ const CHARACTERS_DETAILS = [
     id: 7,
     name: "Wanda Maximoff",
     imageName: "wanda",
-    imageURL:import("../assets/characters/all/wanda.png"),
+    imageURL: import("../assets/characters/all/wanda.png"),
     about:
       "Wanda Maximoff, also known as the Scarlet Witch, is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in The X-Men #4 (March 1964).",
     movies: [
@@ -196,7 +196,7 @@ const CHARACTERS_DETAILS = [
     id: 8,
     name: "Black Widow",
     imageName: "widow",
-    imageURL:import("../assets/characters/all/widow.png"),
+    imageURL: import("../assets/characters/all/widow.png"),
     about:
       "Black Widow (Natasha Romanoff) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by editor and plotter Stan Lee, scripter Don Rico, and artist Don Heck, the character debuted in Tales of Suspense #52 (April 1964).",
     movies: [
@@ -226,7 +226,7 @@ const CHARACTERS_DETAILS = [
     id: 9,
     name: "Thanos",
     imageName: "thanos",
-    imageURL:import("../assets/characters/all/thanos.png"),
+    imageURL: import("../assets/characters/all/thanos.png"),
     about:
       "Thanos is a fictional character appearing in American comic books published by Marvel Comics. Created by writer/artist Jim Starlin, the character first appeared in The Invincible Iron Man #55 (cover dated February 1973).",
     movies: [
@@ -254,7 +254,7 @@ const CHARACTERS_DETAILS = [
     id: 10,
     name: "Doctor Strange",
     imageName: "strange",
-    imageURL:import("../assets/characters/all/strange.png"),
+    imageURL: import("../assets/characters/all/strange.png"),
     about:
       "Doctor Strange (Stephen Strange) is a fictional character appearing in American comic books published by Marvel Comics. Created by artist Steve Ditko and writer Stan Lee, the character first appeared in Strange Tales #110 (cover-dated July 1963).",
     movies: [
@@ -281,7 +281,7 @@ const CHARACTERS_DETAILS = [
     id: 11,
     name: "Black Panther",
     imageName: "black",
-    imageURL:import("../assets/characters/all/black.png"),
+    imageURL: import("../assets/characters/all/black.png"),
     about:
       "Black Panther (T'Challa) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in Fantastic Four #52 (July 1966).",
     movies: [
@@ -306,7 +306,7 @@ const CHARACTERS_DETAILS = [
     id: 12,
     name: "Captain Marvel",
     imageName: "captain",
-    imageURL:import("../assets/characters/all/captain.png"),
+    imageURL: import("../assets/characters/all/captain.png"),
     about:
       "Captain Marvel (Carol Danvers) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Roy Thomas and artist Gene Colan, the character first appeared in Marvel Super-Heroes #13 (March 1968).",
     movies: ["Captain Marvel (2019)", "Avengers: Endgame (2019)"],
@@ -326,7 +326,7 @@ const CHARACTERS_DETAILS = [
     id: 13,
     name: "Kang the Conqueror",
     imageName: "kang",
-    imageURL:import("../assets/characters/all/kang.png"),
+    imageURL: import("../assets/characters/all/kang.png"),
     about:
       "Kang the Conqueror is a fictional supervillain appearing in American comic books published by Marvel Comics. The character is most frequently depicted as an opponent of the Avengers.",
     movies: ["Ant-Man and The Wasp: Quantumania (2023)"],
@@ -352,7 +352,7 @@ const CHARACTERS_DETAILS = [
     id: 14,
     name: "Wolverine",
     imageName: "wolv",
-    imageURL:import("../assets/characters/all/wolv.png"),
+    imageURL: import("../assets/characters/all/wolv.png"),
     about:
       "Wolverine (James 'Logan' Howlett) is a fictional character appearing in American comic books published by Marvel Comics, mostly associated with the X-Men. Created by writer Len Wein and artist John Romita Sr., the character first appeared in The Incredible Hulk #180 (cover-dated October 1974) before appearing in The Incredible Hulk #181 (cover-dated November 1974) as Wolverine.",
     movies: [
@@ -383,7 +383,7 @@ const CHARACTERS_DETAILS = [
     id: 15,
     name: "Dormammu",
     imageName: "dormamu",
-    imageURL:import("../assets/characters/all/dormamu.png"),
+    imageURL: import("../assets/characters/all/dormamu.png"),
     about:
       "Dormammu is a fictional character appearing in American comic books published by Marvel Comics. The character first appeared in Strange Tales #126 (November 1964) and was created by writer Stan Lee and artist Steve Ditko.",
     movies: ["Doctor Strange (2016)"],
@@ -403,8 +403,8 @@ const CHARACTERS_DETAILS = [
   {
     id: 16,
     name: "Reed Richards",
-    imageName: "reed ",
-    imageURL:import("../assets/characters/all/reed.png"),
+    imageName: "reed",
+    imageURL: import("../assets/characters/all/reed.png"),
     about:
       "Reed Richards, also known as Mister Fantastic, is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist/co-plotter Jack Kirby, the character first appeared in Fantastic Four #1 (November 1961).",
     movies: [
@@ -429,7 +429,7 @@ const CHARACTERS_DETAILS = [
     id: 17,
     name: "Doctor Doom",
     imageName: "doom",
-    imageURL:import("../assets/characters/all/doom.png"),
+    imageURL: import("../assets/characters/all/doom.png"),
     about:
       "Doctor Doom (Victor Von Doom) is a fictional supervillain appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist/co-plotter Jack Kirby, the character made his first appearance in The Fantastic Four #5 (July 1962).",
     movies: [
@@ -454,7 +454,7 @@ const CHARACTERS_DETAILS = [
     id: 18,
     name: "Spider-Man",
     imageName: "spider",
-    imageURL:import("../assets/characters/all/spider.png"),
+    imageURL: import("../assets/characters/all/spider.png"),
     about:
       "Spider-Man (Peter Parker) is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Steve Ditko, and he first appeared in Amazing Fantasy #15 (cover-dated August 1962).",
     movies: [
@@ -488,7 +488,7 @@ const CHARACTERS_DETAILS = [
     id: 19,
     name: "Eternity",
     imageName: "eternity",
-    imageURL:import("../assets/characters/all/eternity.png"),
+    imageURL: import("../assets/characters/all/eternity.png"),
     about:
       "Eternity is a fictional cosmic entity appearing in American comic books published by Marvel Comics. The character first appeared in Strange Tales #138 (November 1965) and was created by Stan Lee and Steve Ditko.",
     movies: [],
@@ -508,7 +508,7 @@ const CHARACTERS_DETAILS = [
     id: 20,
     name: "The Watcher",
     imageName: "watcher",
-    imageURL:import("../assets/characters/all/watcher.png"),
+    imageURL: import("../assets/characters/all/watcher.png"),
     about:
       "The Watcher is a fictional cosmic being appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in The Fantastic Four #13 (April 1963).",
     movies: [],
@@ -524,51 +524,12 @@ const CHARACTERS_DETAILS = [
     creator: "Stan Lee, Jack Kirby",
     gender: "Inapplicable",
   },
-  {
-    id: 21,
-    name: "Prime Ultron",
-    imageName: "ultron",
-    imageURL:import("../assets/characters/all/ultron.png"),
-    about:
-      "Prime Ultron is a version of the character Ultron from Earth-616 continuity who has achieved a level of power and evolution surpassing his previous iterations.",
-    series: ["What if s1"],
-    alias: ["Ultron"],
-    powers: [
-      "Superhuman strength, speed, agility, and durability",
-      "Genius-level intellect",
-      "Advanced technology manipulation",
-      "Energy manipulation",
-    ],
-    appearances: ["Comics"],
-    firstAppearance: "Mighty Avengers (Vol. 2) #1 (September 2013)",
-    creator: "Al Ewing, Greg Land",
-    gender: "Inapplicable",
-  },
-  {
-    id: 22,
-    name: "He Who Remains",
-    imageName: "he",
-    imageURL:import("../assets/characters/all/he.png"),
-    about:
-      "He Who Remains is a character in Marvel Comics, primarily associated with the TVA (Time Variance Authority) and the management of the multiverse.",
-    series: ["Loki (2021)"],
-    alias: ["The One Who Remains", "Nathaniel Richards"],
-    powers: [
-      "Immortality",
-      "Vast knowledge of the multiverse",
-      "Ability to control the TVA",
-    ],
-    appearances: ["Comics"],
-    firstAppearance: "Kang the Conqueror #8 (November 2005)",
-    creator: "Roger Stern, John Buscema",
-    gender: "Male",
-  },
 
   {
     id: 1,
     name: "Moon Knight",
     imageName: "Knight",
-    imageURL:import("../assets/characters/all/Knight.png"),
+    imageURL: import("../assets/characters/all/Knight.png"),
     about:
       "Moon Knight (Marc Spector) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Doug Moench and artist Don Perlin, the character first appeared in Werewolf by Night #32 (August 1975).",
     series: ["Moon Knight (TBA)"],
@@ -589,7 +550,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Kingpin",
     imageName: "Kingpin",
-    imageURL:import("../assets/characters/all/Kingpin.png"),
+    imageURL: import("../assets/characters/all/Kingpin.png"),
     about:
       "Kingpin (Wilson Fisk) is a fictional supervillain appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist John Romita Sr., the character first appeared in The Amazing Spider-Man #50 (July 1967).",
     series: [],
@@ -610,7 +571,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Daredevil",
     imageName: "Daredevil",
-    imageURL:import("../assets/characters/all/Daredevil.png"),
+    imageURL: import("../assets/characters/all/Daredevil.png"),
     about:
       "Daredevil (Matt Murdock) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Bill Everett, the character first appeared in Daredevil #1 (April 1964).",
     series: ["Daredevil (2015-2018)"],
@@ -632,7 +593,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Venom",
     imageName: "Venom",
-    imageURL:import("../assets/characters/all/Venom.png"),
+    imageURL: import("../assets/characters/all/Venom.png"),
     about:
       "Venom is a fictional character appearing in American comic books published by Marvel Comics, commonly in association with Spider-Man. The character is a sentient alien Symbiote with an amorphous, liquid-like form.",
     series: [],
@@ -654,7 +615,7 @@ const CHARACTERS_DETAILS = [
     id: 5,
     name: "Green Goblin",
     imageName: "Goblin",
-    imageURL:import("../assets/characters/all/Goblin.png"),
+    imageURL: import("../assets/characters/all/Goblin.png"),
     about:
       "Green Goblin is a fictional supervillain appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Steve Ditko, and he first appeared in The Amazing Spider-Man #14 (July 1964).",
     series: [],
@@ -676,7 +637,7 @@ const CHARACTERS_DETAILS = [
     id: 1,
     name: "Mighty Thor",
     imageName: "Thor2",
-    imageURL:import("../assets/characters/all/Thor2.png"),
+    imageURL: import("../assets/characters/all/Thor2.png"),
     about:
       "Mighty Thor, also known as Lady Thor, is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Jason Aaron and artist Russell Dauterman, the character first appeared in Thor (vol. 4) #1 (October 2014).",
     series: [],
@@ -698,7 +659,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Gorr the God Butcher",
     imageName: "Butcher",
-    imageURL:import("../assets/characters/all/Butcher.png"),
+    imageURL: import("../assets/characters/all/Butcher.png"),
     about:
       "Gorr the God Butcher is a fictional supervillain appearing in American comic books published by Marvel Comics. The character was created by writer Jason Aaron and artist Esad Ribic, and first appeared in Thor: God of Thunder #2 (January 2013).",
     series: [],
@@ -718,7 +679,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Charles Xavier",
     imageName: "Xavier",
-    imageURL:import("../assets/characters/all/Xavier.png"),
+    imageURL: import("../assets/characters/all/Xavier.png"),
     about:
       "Charles Xavier, also known as Professor X, is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in X-Men #1 (September 1963).",
     series: [],
@@ -748,7 +709,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Black Bolt",
     imageName: "Bolt",
-    imageURL:import("../assets/characters/all/Bolt.png"),
+    imageURL: import("../assets/characters/all/Bolt.png"),
     about:
       "Black Bolt is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in Fantastic Four #45 (December 1965).",
     series: [],
@@ -769,7 +730,7 @@ const CHARACTERS_DETAILS = [
     id: 5,
     name: "Hawkeye",
     imageName: "Hawkeye",
-    imageURL:import("../assets/characters/all/Hawkeye.png"),
+    imageURL: import("../assets/characters/all/Hawkeye.png"),
     about:
       "Hawkeye (Clinton Barton) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Don Heck, the character first appeared as a villain in Tales of Suspense #57 (September 1964) and later joined the Avengers in Avengers #16 (May 1965).",
     series: [],
@@ -795,7 +756,7 @@ const CHARACTERS_DETAILS = [
     id: 1,
     name: "War Machine",
     imageName: "Machine",
-    imageURL:import("../assets/characters/all/Machine.png"),
+    imageURL: import("../assets/characters/all/Machine.png"),
     about:
       "War Machine (James 'Rhodey' Rhodes) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer David Michelinie and artist Bob Layton, the character first appeared in Iron Man #118 (January 1979).",
     series: [],
@@ -822,7 +783,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Vision",
     imageName: "Vision",
-    imageURL:import("../assets/characters/all/Vision.png"),
+    imageURL: import("../assets/characters/all/Vision.png"),
     about:
       "Vision is a fictional superhero appearing in American comic books published by Marvel Comics. The character is an android and a member of the Avengers. Vision was created by writer Roy Thomas and artist John Buscema and first appeared in The Avengers #57 (October 1968).",
     series: [],
@@ -850,7 +811,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Sam Wilson",
     imageName: "Wilson",
-    imageURL:import("../assets/characters/all/Wilson.png"),
+    imageURL: import("../assets/characters/all/Wilson.png"),
     about:
       "Sam Wilson, also known as Falcon and formerly as Captain America, is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Gene Colan, the character first appeared in Captain America #117 (September 1969).",
     series: [],
@@ -878,7 +839,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Shang-Chi",
     imageName: "Chi",
-    imageURL:import("../assets/characters/all/Chi.png"),
+    imageURL: import("../assets/characters/all/Chi.png"),
     about:
       "Shang-Chi is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by writer Steve Englehart and artist Jim Starlin, and first appeared in Special Marvel Edition #15 (December 1973).",
     series: [],
@@ -897,10 +858,34 @@ const CHARACTERS_DETAILS = [
     gender: "Male",
   },
   {
+    id: 2,
+    name: "Arnim Zola",
+    imageName: "Zola",
+    imageURL: import("../assets/characters/all/Zola.png"),
+    about:
+      "Arnim Zola is a fictional supervillain appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in Captain America Comics #41 (March 1944).",
+    series: [],
+    movies: [
+      "Captain America: The First Avenger (2011)",
+      "Captain America: The Winter Soldier (2014)",
+    ],
+    alias: ["Dr. Arnim Zola"],
+    powers: [
+      "Genius-level intellect",
+      "Expert in genetic engineering and robotics",
+      "Access to advanced technology",
+    ],
+    appearances: ["Comics", "Films", "Television", "Video Games"],
+    firstAppearance: "Captain America Comics #41 (March 1944)",
+    creator: "Stan Lee, Jack Kirby",
+    gender: "Male",
+  },
+
+  {
     id: 1,
     name: "Winter Soldier",
     imageName: "Soldier",
-    imageURL:import("../assets/characters/all/Soldier.png"),
+    imageURL: import("../assets/characters/all/Soldier.png"),
     about:
       "Winter Soldier (Bucky Barnes) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Ed Brubaker and artist Steve Epting, the character first appeared in Captain America (vol. 5) #1 (January 2005).",
     series: [],
@@ -926,7 +911,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Ant-Man",
     imageName: "Man",
-    imageURL:import("../assets/characters/all/Man.png"),
+    imageURL: import("../assets/characters/all/Man.png"),
     about:
       "Ant-Man (Scott Lang) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer David Michelinie and artist John Byrne, the character first appeared in The Avengers #181 (March 1979).",
     series: [],
@@ -951,7 +936,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Ego",
     imageName: "Ego",
-    imageURL:import("../assets/characters/all/Ego.png"),
+    imageURL: import("../assets/characters/all/Ego.png"),
     about:
       "Ego the Living Planet is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby, and first appeared in Thor #132 (September 1966).",
     series: [],
@@ -973,7 +958,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Peter Quill",
     imageName: "Quill",
-    imageURL:import("../assets/characters/all/Quill.png"),
+    imageURL: import("../assets/characters/all/Quill.png"),
     about:
       "Peter Quill, also known as Star-Lord, is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Steve Englehart and artist Steve Gan, the character first appeared in Marvel Preview #4 (January 1976).",
     series: [],
@@ -998,7 +983,7 @@ const CHARACTERS_DETAILS = [
     id: 1,
     name: "Gamora",
     imageName: "Gamora",
-    imageURL:import("../assets/characters/all/Gamora.png"),
+    imageURL: import("../assets/characters/all/Gamora.png"),
     about:
       "Gamora is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Jim Starlin and artist Jim Starlin, the character first appeared in Strange Tales #180 (June 1975).",
     series: [],
@@ -1023,7 +1008,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Rocket",
     imageName: "Rocket",
-    imageURL:import("../assets/characters/all/Rocket.png"),
+    imageURL: import("../assets/characters/all/Rocket.png"),
     about:
       "Rocket Raccoon is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Bill Mantlo and artist Keith Giffen, the character first appeared in Marvel Preview #7 (Summer 1976).",
     series: [],
@@ -1049,7 +1034,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Nick Fury",
     imageName: "Fury",
-    imageURL:import("../assets/characters/all/Fury.png"),
+    imageURL: import("../assets/characters/all/Fury.png"),
     about:
       "Nick Fury is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer/artist Jack Kirby and writer Stan Lee, and first appeared in Sgt. Fury and his Howling Commandos #1 (May 1963).",
     series: [],
@@ -1081,7 +1066,7 @@ const CHARACTERS_DETAILS = [
     id: 1,
     name: "Nebula",
     imageName: "Nebula",
-    imageURL:import("../assets/characters/all/Nebula.png"),
+    imageURL: import("../assets/characters/all/Nebula.png"),
     about:
       "Nebula is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Roger Stern and artist John Buscema, the character first appeared in The Avengers #257 (July 1985).",
     series: [],
@@ -1107,7 +1092,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Mantis",
     imageName: "Mantis",
-    imageURL:import("../assets/characters/all/Mantis.png"),
+    imageURL: import("../assets/characters/all/Mantis.png"),
     about:
       "Mantis is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Steve Englehart and artist Don Heck, and first appeared in The Avengers #112 (June 1973).",
     series: [],
@@ -1132,7 +1117,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "Drax",
     imageName: "Drax",
-    imageURL:import("../assets/characters/all/Drax.png"),
+    imageURL: import("../assets/characters/all/Drax.png"),
     about:
       "Drax the Destroyer is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer/editor Roy Thomas and artist/co-plotter Gil Kane, and first appeared in Iron Man #55 (February 1973).",
     series: [],
@@ -1158,7 +1143,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "Groot",
     imageName: "Groot",
-    imageURL:import("../assets/characters/all/Groot.png"),
+    imageURL: import("../assets/characters/all/Groot.png"),
     about:
       "Groot is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee, scripter Larry Lieber, and artists Jack Kirby and Dick Ayers, and first appeared in Tales to Astonish #13 (November 1960).",
     series: [],
@@ -1185,7 +1170,7 @@ const CHARACTERS_DETAILS = [
     id: 58,
     name: "Giah",
     imageName: "Giah",
-    imageURL:import("../assets/characters/all/Giah.png"),
+    imageURL: import("../assets/characters/all/Giah.png"),
     about:
       "Giah is a character from the Marvel Cinematic Universe TV series 'Secret Invasion'. She is portrayed as a mysterious entity with connections to the Skrull invasion plotline. Giah's true intentions and abilities remain shrouded in secrecy, adding to the intrigue of the series.",
     series: ["Secret Invasion"],
@@ -1201,7 +1186,7 @@ const CHARACTERS_DETAILS = [
     id: 59,
     name: "Gravik",
     imageName: "Gravik",
-    imageURL:import("../assets/characters/all/Gravik.png"),
+    imageURL: import("../assets/characters/all/Gravik.png"),
     about:
       "Gravik is a character from the Marvel Cinematic Universe TV series 'Secret Invasion'. Little is known about Gravik except that they are involved in the events of the Skrull invasion storyline. Gravik's role and motivations are likely to be revealed as the series progresses.",
     series: ["Secret Invasion"],
@@ -1217,7 +1202,7 @@ const CHARACTERS_DETAILS = [
     id: 60,
     name: "Auroboros",
     imageName: "Auroboros",
-    imageURL:import("../assets/characters/all/Auroboros.png"),
+    imageURL: import("../assets/characters/all/Auroboros.png"),
     about:
       "Auroboros is a character from the Marvel Cinematic Universe TV series 'Loki'. He is portrayed as a mysterious figure associated with the Time Variance Authority (TVA) and the sacred timeline. Auroboros' true identity and intentions are enigmatic, contributing to the intrigue of the series.",
     series: ["Loki"],
@@ -1233,7 +1218,7 @@ const CHARACTERS_DETAILS = [
     id: 61,
     name: "Miss Minutes",
     imageName: "Minutes",
-    imageURL:import("../assets/characters/all/Minutes.png"),
+    imageURL: import("../assets/characters/all/Minutes.png"),
     about:
       "Miss Minutes is a character from the Marvel Cinematic Universe TV series 'Loki'. She is portrayed as a cartoon clock created by the Time Variance Authority (TVA) to educate its agents about the organization's rules and regulations. Miss Minutes appears as a cheerful and helpful guide, though her true nature and agenda remain mysterious.",
     series: ["Loki"],
@@ -1249,7 +1234,7 @@ const CHARACTERS_DETAILS = [
     id: 1,
     name: "Sylvie",
     imageName: "Sylvie",
-    imageURL:import("../assets/characters/all/Sylvie.png"),
+    imageURL: import("../assets/characters/all/Sylvie.png"),
     about:
       "Sylvie, also known as the Variant, is a character appearing in the Marvel Cinematic Universe series 'Loki'. She is portrayed as a variant of Loki, with a different backstory and motivations. Sylvie possesses similar abilities to Loki, including sorcery and illusion-casting.",
     series: ["Loki"],
@@ -1265,7 +1250,7 @@ const CHARACTERS_DETAILS = [
     id: 2,
     name: "Ms. Marvel",
     imageName: "2",
-    imageURL:import("../assets/characters/all/2.png"),
+    imageURL: import("../assets/characters/all/2.png"),
     about:
       "Ms. Marvel, also known as Kamala Khan, is a character appearing in the Marvel Cinematic Universe series 'Ms. Marvel'. She is portrayed as a Pakistani-American teenager living in Jersey City who gains superpowers after being exposed to Terrigen Mist. Ms. Marvel is known for her ability to stretch and manipulate her body.",
     series: ["Ms. Marvel"],
@@ -1281,7 +1266,7 @@ const CHARACTERS_DETAILS = [
     id: 3,
     name: "She-Hulk",
     imageName: "Hulk2",
-    imageURL:import("../assets/characters/all/Hulk2.png"),
+    imageURL: import("../assets/characters/all/Hulk2.png"),
     about:
       "She-Hulk, also known as Jennifer Walters, is a character appearing in the Marvel Cinematic Universe series 'She-Hulk'. She is portrayed as a lawyer who gains superhuman strength and durability after receiving a blood transfusion from her cousin, Bruce Banner (the Hulk). She-Hulk maintains her intelligence and personality in her Hulk form.",
     series: ["She-Hulk"],
@@ -1301,7 +1286,7 @@ const CHARACTERS_DETAILS = [
     id: 4,
     name: "King Valkyrie",
     imageName: "Valkyrie",
-    imageURL:import("../assets/characters/all/Valkyrie.png"),
+    imageURL: import("../assets/characters/all/Valkyrie.png"),
     about:
       "King Valkyrie is a character appearing in the Marvel Cinematic Universe movie 'Thor: Love and Thunder'. She is the ruler of Asgard and a member of the Valkyrior. As the new king, Valkyrie seeks to establish peace and order in Asgard after the events of 'Avengers: Endgame'.",
     series: [],
@@ -1317,7 +1302,7 @@ const CHARACTERS_DETAILS = [
     id: 9,
     name: "Mysterio",
     imageName: "Mysterio",
-    imageURL:import("../assets/characters/all/Mysterio.png"),
+    imageURL: import("../assets/characters/all/Mysterio.png"),
     about:
       "Mysterio, also known as Quentin Beck, is a character from the Marvel Cinematic Universe movie 'Spider-Man: Far From Home'. He is portrayed as a master of illusion and special effects who uses advanced technology to deceive and manipulate others. Mysterio poses as a hero to gain public trust while secretly plotting to defeat Spider-Man and become the world's greatest hero.",
     series: [],
@@ -1333,7 +1318,7 @@ const CHARACTERS_DETAILS = [
     id: 10,
     name: "Sersi",
     imageName: "Sersi",
-    imageURL:import("../assets/characters/all/Sersi.png"),
+    imageURL: import("../assets/characters/all/Sersi.png"),
     about:
       "Sersi is a character from the Marvel Cinematic Universe movie 'Eternals'. She is portrayed as a member of the Eternals, an immortal race of beings created by the Celestials to protect humanity from the Deviants. Sersi possesses the ability to manipulate matter at the molecular level, allowing her to transmute objects and manipulate energy.",
     series: [],
@@ -1349,7 +1334,7 @@ const CHARACTERS_DETAILS = [
     id: 11,
     name: "Ikaris",
     imageName: "Ikaris",
-    imageURL:import("../assets/characters/all/Ikaris.png"),
+    imageURL: import("../assets/characters/all/Ikaris.png"),
     about:
       "Ikaris is a character from the Marvel Cinematic Universe movie 'Eternals'. He is portrayed as one of the leaders of the Eternals, possessing superhuman strength, flight, and the ability to project cosmic energy beams from his eyes. Ikaris is dedicated to protecting humanity and fulfilling the mission of the Eternals.",
     series: [],
@@ -1365,7 +1350,7 @@ const CHARACTERS_DETAILS = [
     id: 12,
     name: "Thena",
     imageName: "hena",
-    imageURL:import("../assets/characters/all/hena.png"),
+    imageURL: import("../assets/characters/all/hena.png"),
     about:
       "Thena is a character from the Marvel Cinematic Universe movie 'Eternals'. She is portrayed as a fierce warrior and member of the Eternals, skilled in combat and armed with cosmic-powered weapons. Thena is committed to defending humanity from threats and upholding the legacy of the Eternals.",
     series: [],
@@ -1385,7 +1370,7 @@ const CHARACTERS_DETAILS = [
     id: 13,
     name: "Kingo",
     imageName: "Kingo",
-    imageURL:import("../assets/characters/all/Kingo.png"),
+    imageURL: import("../assets/characters/all/Kingo.png"),
     about:
       "Kingo is a character from the Marvel Cinematic Universe movie 'Eternals'. He is portrayed as an Eternal who has become a famous Bollywood actor on Earth. Despite his celebrity status, Kingo is a skilled warrior with the ability to project cosmic energy projectiles from his hands.",
     series: [],
@@ -1401,7 +1386,7 @@ const CHARACTERS_DETAILS = [
     id: 14,
     name: "Makkari",
     imageName: "Makkari",
-    imageURL:import("../assets/characters/all/Makkari.png"),
+    imageURL: import("../assets/characters/all/Makkari.png"),
     about:
       "Makkari is a character from the Marvel Cinematic Universe movie 'Eternals'. She is portrayed as an Eternal with superhuman speed, making her one of the fastest beings in the universe. Makkari is skilled in combat and uses her speed to protect humanity and her fellow Eternals.",
     series: [],
@@ -1417,7 +1402,7 @@ const CHARACTERS_DETAILS = [
     id: 15,
     name: "Ancient One",
     imageName: "One",
-    imageURL:import("../assets/characters/all/One.png"),
+    imageURL: import("../assets/characters/all/One.png"),
     about:
       "The Ancient One is a character from the Marvel Cinematic Universe movie 'Doctor Strange'. She is portrayed as the Sorcerer Supreme and mentor to Doctor Strange, teaching him the mystical arts and guiding him in his journey to protect reality. The Ancient One possesses immense magical power and knowledge.",
     series: [],
@@ -1433,7 +1418,7 @@ const CHARACTERS_DETAILS = [
     id: 16,
     name: "Ronan",
     imageName: "Ronan",
-    imageURL:import("../assets/characters/all/Ronan.png"),
+    imageURL: import("../assets/characters/all/Ronan.png"),
     about:
       "Ronan the Accuser is a character from the Marvel Cinematic Universe movie 'Guardians of the Galaxy'. He is portrayed as a high-ranking member of the Kree Empire and a zealous extremist who seeks to eradicate Xandarian civilization. Ronan wields a powerful war hammer and possesses enhanced strength and durability.",
     series: [],
@@ -1449,7 +1434,7 @@ const CHARACTERS_DETAILS = [
     id: 17,
     name: "J.A.R.V.I.S.",
     imageName: "Jarvis",
-    imageURL:import("../assets/characters/all/Jarvis.png"),
+    imageURL: import("../assets/characters/all/Jarvis.png"),
     about:
       "J.A.R.V.I.S. (Just A Rather Very Intelligent System) is a character from the Marvel Cinematic Universe. Originally created by Tony Stark, J.A.R.V.I.S. serves as Stark's AI assistant, managing his mansion, suits, and providing valuable assistance in his superhero endeavors. J.A.R.V.I.S. eventually evolves into the Vision.",
     series: [],
@@ -1475,7 +1460,7 @@ const CHARACTERS_DETAILS = [
     id: 18,
     name: "Hela",
     imageName: "Hela",
-    imageURL:import("../assets/characters/all/Hela.png"),
+    imageURL: import("../assets/characters/all/Hela.png"),
     about:
       "Hela is a character from the Marvel Cinematic Universe movie 'Thor: Ragnarok'. She is portrayed as the Goddess of Death and the firstborn daughter of Odin, king of Asgard. Hela seeks to conquer Asgard and expand her dominion over the Nine Realms. She possesses immense power, including the ability to manipulate necroplasmic energy and wield weapons with deadly precision.",
     series: [],
@@ -1495,7 +1480,7 @@ const CHARACTERS_DETAILS = [
     id: 19,
     name: "Hope van Dyne",
     imageName: "Hope",
-    imageURL:import("../assets/characters/all/Hope.png"),
+    imageURL: import("../assets/characters/all/Hope.png"),
     about:
       "Hope van Dyne is a character from the Marvel Cinematic Universe movie 'Ant-Man'. She is portrayed as the daughter of Hank Pym and Janet van Dyne and a skilled scientist and martial artist. Hope becomes the partner of Scott Lang (Ant-Man) and adopts the superhero identity of the Wasp, utilizing advanced technology to shrink and fly.",
     series: [],
@@ -1511,7 +1496,7 @@ const CHARACTERS_DETAILS = [
     id: 20,
     name: "Janet van Dyne",
     imageName: "Janet",
-    imageURL:import("../assets/characters/all/Janet.png"),
+    imageURL: import("../assets/characters/all/Janet.png"),
     about:
       "Janet van Dyne is a character from the Marvel Cinematic Universe movie 'Ant-Man'. She is portrayed as the wife of Hank Pym and the original Wasp, who went missing after shrinking to subatomic size to disable a Soviet missile. Janet returns from the Quantum Realm with enhanced abilities and reunites with her family.",
     series: [],
@@ -1527,7 +1512,7 @@ const CHARACTERS_DETAILS = [
     id: 21,
     name: "Hank Pym",
     imageName: "Pym",
-    imageURL:import("../assets/characters/all/Pym.png"),
+    imageURL: import("../assets/characters/all/Pym.png"),
     about:
       "Hank Pym is a character from the Marvel Cinematic Universe movie 'Ant-Man'. He is portrayed as a brilliant scientist and inventor who developed the Pym Particles, allowing for size manipulation. Pym mentors Scott Lang (Ant-Man) and Hope van Dyne (the Wasp) and aids them in their superhero endeavors.",
     series: [],
@@ -1543,7 +1528,7 @@ const CHARACTERS_DETAILS = [
     id: 22,
     name: "Abomination",
     imageName: "Abomination",
-    imageURL:import("../assets/characters/all/Abomination.png"),
+    imageURL: import("../assets/characters/all/Abomination.png"),
     about:
       "Abomination, also known as Emil Blonsky, is a character from the Marvel Cinematic Universe movie 'The Incredible Hulk'. He is portrayed as a former soldier who undergoes a supersoldier experiment, transforming him into a monstrous creature with superhuman strength and durability. Abomination becomes a nemesis of the Hulk and engages in a destructive battle with him.",
     series: [],
@@ -1563,7 +1548,7 @@ const CHARACTERS_DETAILS = [
     id: 23,
     name: "Ivan Vanko",
     imageName: "Vanko",
-    imageURL:import("../assets/characters/all/Vanko.png"),
+    imageURL: import("../assets/characters/all/Vanko.png"),
     about:
       "Ivan Vanko is a character from the Marvel Cinematic Universe movie 'Iron Man 2'. He is portrayed as a brilliant physicist and engineer seeking revenge against Tony Stark for perceived wrongs committed against his family. Ivan constructs his own suit of armor equipped with powerful arc reactor-based weapons, becoming the villain known as Whiplash.",
     series: [],
@@ -1583,7 +1568,7 @@ const CHARACTERS_DETAILS = [
     id: 24,
     name: "Yondu Udonta",
     imageName: "Yondu",
-    imageURL:import("../assets/characters/all/Yondu.png"),
+    imageURL: import("../assets/characters/all/Yondu.png"),
     about:
       "Yondu Udonta is a character from the Marvel Cinematic Universe movie 'Guardians of the Galaxy'. He is portrayed as the leader of the Ravagers, a group of space pirates, and a surrogate father figure to Peter Quill (Star-Lord). Yondu is skilled in combat and wields a whistle-controlled arrow, which he uses with deadly accuracy.",
     series: [],
@@ -1599,7 +1584,7 @@ const CHARACTERS_DETAILS = [
     id: 25,
     name: "Cassandra Lang",
     imageName: "Cassandra",
-    imageURL:import("../assets/characters/all/Cassandra.png"),
+    imageURL: import("../assets/characters/all/Cassandra.png"),
     about:
       "Cassandra Lang is a character from the upcoming Marvel Cinematic Universe movie 'Ant-Man and the Wasp: Quantumania'. She is portrayed as the daughter of Scott Lang (Ant-Man) and Hope van Dyne (the Wasp). Cassandra inherits her parents' legacy and may potentially become a superhero like them.",
     series: [],
@@ -1615,7 +1600,7 @@ const CHARACTERS_DETAILS = [
     id: 26,
     name: "Heimdall",
     imageName: "Heimdall",
-    imageURL:import("../assets/characters/all/Heimdall.png"),
+    imageURL: import("../assets/characters/all/Heimdall.png"),
     about:
       "Heimdall is a character from the Marvel Cinematic Universe movie series 'Thor'. He is portrayed as the all-seeing guardian of the Bifrost Bridge, which allows travel between the Nine Realms. Heimdall possesses superhuman senses and vigilantly protects Asgard from threats.",
     series: [],
@@ -1636,7 +1621,7 @@ const CHARACTERS_DETAILS = [
     id: 27,
     name: "Phil Coulson",
     imageName: "Coulson",
-    imageURL:import("../assets/characters/all/Coulson.png"),
+    imageURL: import("../assets/characters/all/Coulson.png"),
     about:
       "Phil Coulson is a character from the Marvel Cinematic Universe movie series 'Iron Man', 'Thor', and 'The Avengers'. He is portrayed as an agent of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement, and Logistics Division) who plays a key role in assembling the Avengers. Coulson is known for his loyalty, resourcefulness, and dedication to protecting Earth from threats.",
     series: [],
@@ -1652,7 +1637,7 @@ const CHARACTERS_DETAILS = [
     id: 28,
     name: "Red Skull",
     imageName: "Skull",
-    imageURL:import("../assets/characters/all/Skull.png"),
+    imageURL: import("../assets/characters/all/Skull.png"),
     about:
       "Red Skull, also known as Johann Schmidt, is a character from the Marvel Cinematic Universe movie 'Captain America: The First Avenger'. He is portrayed as a former Nazi officer who becomes a ruthless supervillain after using the power of the Tesseract. Red Skull seeks world domination and becomes a nemesis of Captain America.",
     series: [],
@@ -1668,7 +1653,7 @@ const CHARACTERS_DETAILS = [
     id: 29,
     name: "Xu Wenwu",
     imageName: "Wenwu",
-    imageURL:import("../assets/characters/all/Wenwu.png"),
+    imageURL: import("../assets/characters/all/Wenwu.png"),
     about:
       "Xu Wenwu, also known as the Mandarin, is a character from the Marvel Cinematic Universe movie 'Shang-Chi and the Legend of the Ten Rings'. He is portrayed as the leader of the Ten Rings organization and a powerful warlord with centuries of life experience. Wenwu seeks to obtain the mystical powers of the Ten Rings to achieve immortality and control.",
     series: [],
@@ -1684,7 +1669,7 @@ const CHARACTERS_DETAILS = [
     id: 30,
     name: "Yelena Belova",
     imageName: "Belova",
-    imageURL:import("../assets/characters/all/Belova.png"),
+    imageURL: import("../assets/characters/all/Belova.png"),
     about:
       "Yelena Belova is a character from the Marvel Cinematic Universe movie 'Black Widow'. She is portrayed as a highly skilled assassin and former Black Widow operative trained in the Red Room. Yelena becomes an ally to Natasha Romanoff (Black Widow) and joins her in uncovering secrets from their past.",
     series: [],
@@ -1700,7 +1685,7 @@ const CHARACTERS_DETAILS = [
     id: 31,
     name: "Crossbones",
     imageName: "Crossbones",
-    imageURL:import("../assets/characters/all/Crossbones.png"),
+    imageURL: import("../assets/characters/all/Crossbones.png"),
     about:
       "Crossbones, also known as Brock Rumlow, is a character from the Marvel Cinematic Universe movie series 'Captain America'. He is portrayed as a former S.H.I.E.L.D. operative who becomes a mercenary and a member of HYDRA. Crossbones is skilled in combat and serves as an antagonist to Captain America.",
     series: [],
@@ -1723,7 +1708,7 @@ const CHARACTERS_DETAILS = [
     id: 32,
     name: "Kaecilius",
     imageName: "Kaecilius",
-    imageURL:import("../assets/characters/all/Kaecilius.png"),
+    imageURL: import("../assets/characters/all/Kaecilius.png"),
     about:
       "Kaecilius is a character from the Marvel Cinematic Universe movie 'Doctor Strange'. He is portrayed as a former student of the Ancient One who becomes disillusioned with the teachings of Kamar-Taj and seeks to harness the power of the Dark Dimension. Kaecilius serves as an antagonist to Doctor Strange.",
     series: [],
@@ -1739,7 +1724,7 @@ const CHARACTERS_DETAILS = [
     id: 33,
     name: "America Chavez",
     imageName: "Chavez",
-    imageURL:import("../assets/characters/all/Chavez.png"),
+    imageURL: import("../assets/characters/all/Chavez.png"),
     about:
       "America Chavez is a character from the Marvel Cinematic Universe movie 'Doctor Strange in the Multiverse of Madness'. She is portrayed as a powerful superhero with the ability to travel between dimensions and punch star-shaped portals. America Chavez is also known by her superhero alias, Miss America.",
     series: [],
@@ -1755,7 +1740,7 @@ const CHARACTERS_DETAILS = [
     id: 34,
     name: "Quicksilver",
     imageName: "Quicksilver",
-    imageURL:import("../assets/characters/all/Quicksilver.png"),
+    imageURL: import("../assets/characters/all/Quicksilver.png"),
     about:
       "Quicksilver, also known as Pietro Maximoff, is a character from the Marvel Cinematic Universe movie series 'Avengers' and 'X-Men'. He is portrayed as a mutant with the ability to move at superhuman speed. Quicksilver is a member of the Avengers and a twin brother to Wanda Maximoff (Scarlet Witch).",
     series: [],
@@ -1771,7 +1756,7 @@ const CHARACTERS_DETAILS = [
     id: 35,
     name: "Namor",
     imageName: "Namor",
-    imageURL:import("../assets/characters/all/Namor.png"),
+    imageURL: import("../assets/characters/all/Namor.png"),
     about:
       "Namor is a character from the Marvel Cinematic Universe movie 'Black Panther: Wakanda Forever'. He is portrayed as the ruler of the underwater kingdom of Atlantis and a powerful mutant with abilities including superhuman strength, speed, and aquatic adaptation. Namor often finds himself at odds with surface-dwellers, including the nation of Wakanda.",
     series: [],
@@ -1787,7 +1772,7 @@ const CHARACTERS_DETAILS = [
     id: 36,
     name: "Medusa",
     imageName: "Medusa",
-    imageURL:import("../assets/characters/all/Medusa.png"),
+    imageURL: import("../assets/characters/all/Medusa.png"),
     about:
       "Medusa is a character from the Marvel Cinematic Universe TV series 'Inhumans'. She is portrayed as the queen of the Inhuman royal family and possesses prehensile hair, which she can manipulate and control with great precision. Medusa is a key figure in the struggle for power and control within the Inhuman society.",
     series: ["Inhumans"],
@@ -1803,7 +1788,7 @@ const CHARACTERS_DETAILS = [
     id: 37,
     name: "Peggy Carter",
     imageName: "Carter",
-    imageURL:import("../assets/characters/all/Carter.png"),
+    imageURL: import("../assets/characters/all/Carter.png"),
     about:
       "Peggy Carter is a character from the Marvel Cinematic Universe movie series 'Captain America' and the TV series 'Agent Carter'. She is portrayed as a British intelligence officer and co-founder of S.H.I.E.L.D. Peggy is known for her bravery, resourcefulness, and contributions to the Allied forces during World War II.",
     series: ["Agent Carter"],
@@ -1823,7 +1808,7 @@ const CHARACTERS_DETAILS = [
     id: 38,
     name: "Maria Hill",
     imageName: "Hill",
-    imageURL:import("../assets/characters/all/Hill.png"),
+    imageURL: import("../assets/characters/all/Hill.png"),
     about:
       "Maria Hill is a character from the Marvel Cinematic Universe movie series 'The Avengers' and 'Captain America'. She is portrayed as a high-ranking agent of S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement, and Logistics Division) and a trusted ally to Nick Fury. Maria plays a key role in coordinating efforts to protect Earth from various threats.",
     series: [],
@@ -1845,7 +1830,7 @@ const CHARACTERS_DETAILS = [
     id: 39,
     name: "Shuri",
     imageName: "Shuri",
-    imageURL:import("../assets/characters/all/Shuri.png"),
+    imageURL: import("../assets/characters/all/Shuri.png"),
     about:
       "Shuri is a character from the Marvel Cinematic Universe movie series 'Black Panther'. She is portrayed as the princess of Wakanda and a brilliant scientist and engineer. Shuri is responsible for developing advanced technology for Wakanda, including the Black Panther suit and other innovative gadgets.",
     series: [],
@@ -1861,7 +1846,7 @@ const CHARACTERS_DETAILS = [
     id: 40,
     name: "Wong",
     imageName: "Wong",
-    imageURL:import("../assets/characters/all/Wong.png"),
+    imageURL: import("../assets/characters/all/Wong.png"),
     about:
       "Wong is a character from the Marvel Cinematic Universe movie series 'Doctor Strange'. He is portrayed as a master of the mystic arts and a loyal ally to Doctor Strange. Wong serves as the keeper of Kamar-Taj's library and assists Doctor Strange in his battles against mystical threats.",
     series: [],
@@ -1882,7 +1867,7 @@ const CHARACTERS_DETAILS = [
     id: 41,
     name: "Killmonger",
     imageName: "Killmonger",
-    imageURL:import("../assets/characters/all/Killmonger.png"),
+    imageURL: import("../assets/characters/all/Killmonger.png"),
     about:
       "Killmonger, also known as Erik Stevens, is a character from the Marvel Cinematic Universe movie 'Black Panther'. He is portrayed as a skilled soldier and mercenary with a personal vendetta against the ruling monarchy of Wakanda. Killmonger seeks to usurp the throne of Wakanda and enact revenge for the mistreatment of his family.",
     series: [],
@@ -1898,7 +1883,7 @@ const CHARACTERS_DETAILS = [
     id: 42,
     name: "Cable",
     imageName: "Cable",
-    imageURL:import("../assets/characters/all/Cable.png"),
+    imageURL: import("../assets/characters/all/Cable.png"),
     about:
       "Cable, also known as Nathan Summers, is a character from the Marvel Cinematic Universe movie 'Deadpool 2'. He is portrayed as a time-traveling soldier with a cybernetic arm and advanced weaponry. Cable travels from the future to prevent a catastrophe and crosses paths with Deadpool in his mission.",
     series: [],
@@ -1915,7 +1900,7 @@ const CHARACTERS_DETAILS = [
     id: 43,
     name: "Punisher",
     imageName: "Punisher",
-    imageURL:import("../assets/characters/all/Punisher.png"),
+    imageURL: import("../assets/characters/all/Punisher.png"),
     about:
       "Punisher, also known as Frank Castle, is a character from the Marvel Cinematic Universe TV series 'The Punisher'. He is portrayed as a vigilante seeking revenge for the murder of his family by waging a one-man war on crime. Punisher is highly skilled in combat and tactics, utilizing lethal force to take down criminals.",
     series: ["The Punisher"],
@@ -1931,7 +1916,7 @@ const CHARACTERS_DETAILS = [
     id: 44,
     name: "Mobius M. Mobius",
     imageName: "Mobius",
-    imageURL:import("../assets/characters/all/Mobius.png"),
+    imageURL: import("../assets/characters/all/Mobius.png"),
     about:
       "Mobius M. Mobius is a character from the Marvel Cinematic Universe TV series 'Loki'. He is portrayed as an agent of the Time Variance Authority (TVA), responsible for maintaining the integrity of the sacred timeline. Mobius becomes an ally to Loki and assists him in unraveling the mysteries of the multiverse.",
     series: ["Loki"],
@@ -1947,7 +1932,7 @@ const CHARACTERS_DETAILS = [
     id: 45,
     name: "Okoye",
     imageName: "Okoye",
-    imageURL:import("../assets/characters/all/Okoye.png"),
+    imageURL: import("../assets/characters/all/Okoye.png"),
     about:
       "Okoye is a character from the Marvel Cinematic Universe movie series 'Black Panther' and 'Avengers'. She is portrayed as the leader of the Dora Milaje, the elite royal guard of Wakanda. Okoye is fiercely loyal to the throne and the nation of Wakanda, skilled in combat, and a formidable warrior.",
     series: [],
@@ -1963,7 +1948,7 @@ const CHARACTERS_DETAILS = [
     id: 46,
     name: "Collector",
     imageName: "Collector",
-    imageURL:import("../assets/characters/all/Collector.png"),
+    imageURL: import("../assets/characters/all/Collector.png"),
     about:
       "Collector is a character from the Marvel Cinematic Universe movie series 'Guardians of the Galaxy'. He is portrayed as an eccentric elder of the universe who collects rare and valuable artifacts. Collector plays a minor antagonistic role in the Guardians of the Galaxy's quest to protect the Power Stone from falling into the wrong hands.",
     series: [],
@@ -1979,7 +1964,7 @@ const CHARACTERS_DETAILS = [
     id: 47,
     name: "Eitri",
     imageName: "Dwarf",
-    imageURL:import("../assets/characters/all/Dwarf.png"),
+    imageURL: import("../assets/characters/all/Dwarf.png"),
     about:
       "Eitri is a character from the Marvel Cinematic Universe movie 'Avengers: Infinity War'. He is portrayed as the king of the Dwarves of Nidavellir and a master forger responsible for creating powerful weapons, including Thor's hammer Mjolnir and the Infinity Gauntlet. Eitri aids Thor and his allies in their quest to forge a new weapon capable of combating Thanos.",
     series: [],
@@ -1995,7 +1980,7 @@ const CHARACTERS_DETAILS = [
     id: 48,
     name: "M'Baku",
     imageName: "Baku",
-    imageURL:import("../assets/characters/all/Baku.png"),
+    imageURL: import("../assets/characters/all/Baku.png"),
     about:
       "M'Baku is a character from the Marvel Cinematic Universe movie 'Black Panther'. He is portrayed as the leader of the Jabari tribe, a rival faction in Wakanda. M'Baku initially opposes T'Challa (Black Panther) but later becomes an ally, assisting in the battle against Erik Killmonger and fighting to protect Wakanda.",
     series: [],
@@ -2011,7 +1996,7 @@ const CHARACTERS_DETAILS = [
     id: 49,
     name: "High Evolutionary",
     imageName: "Evolutionary",
-    imageURL:import("../assets/characters/all/Evolutionary.png"),
+    imageURL: import("../assets/characters/all/Evolutionary.png"),
     about:
       "High Evolutionary is a character from the Marvel Cinematic Universe movie series 'Guardians of the Galaxy'. He is portrayed as a scientist with advanced genetic engineering abilities, seeking to accelerate evolution across the universe. High Evolutionary plays a minor antagonistic role in the cosmic narrative of the Guardians of the Galaxy.",
     series: [],
@@ -2027,7 +2012,7 @@ const CHARACTERS_DETAILS = [
     id: 50,
     name: "Adam Warlock",
     imageName: "Warlock",
-    imageURL:import("../assets/characters/all/Warlock.png"),
+    imageURL: import("../assets/characters/all/Warlock.png"),
     about:
       "Adam Warlock is a character from the Marvel Cinematic Universe movie series 'Guardians of the Galaxy'. He is portrayed as a powerful cosmic being created by the Sovereign race with the purpose of being the perfect being. Adam Warlock plays a significant role in the cosmic narrative, often serving as a protector of the universe.",
     series: [],
@@ -2043,7 +2028,7 @@ const CHARACTERS_DETAILS = [
     id: 51,
     name: "Khonshu",
     imageName: "Khonshu",
-    imageURL:import("../assets/characters/all/Khonshu.png"),
+    imageURL: import("../assets/characters/all/Khonshu.png"),
     about:
       "Khonshu is a character from the Marvel Cinematic Universe TV series 'Moon Knight'. He is portrayed as an ancient Egyptian deity associated with the moon and vengeance. Khonshu grants Marc Spector (Moon Knight) his powers and serves as his patron god, guiding him in his vigilante activities.",
     series: ["Moon Knight"],
@@ -2059,7 +2044,7 @@ const CHARACTERS_DETAILS = [
     id: 52,
     name: "Korg",
     imageName: "Korg",
-    imageURL:import("../assets/characters/all/Korg.png"),
+    imageURL: import("../assets/characters/all/Korg.png"),
     about:
       "Korg is a character from the Marvel Cinematic Universe movie series 'Thor' and 'Avengers'. He is portrayed as a Kronan warrior and a member of the Revengers, led by Thor. Korg is known for his gentle demeanor and rock-like appearance, providing comic relief in the midst of battles.",
     series: [],
@@ -2075,7 +2060,7 @@ const CHARACTERS_DETAILS = [
     id: 53,
     name: "Executioner",
     imageName: "Executioner",
-    imageURL:import("../assets/characters/all/Executioner.png"),
+    imageURL: import("../assets/characters/all/Executioner.png"),
     about:
       "Executioner is a character from the Marvel Cinematic Universe movie series 'Thor'. He is portrayed as a formidable warrior and the ally of Hela, the Goddess of Death. Executioner wields a mighty axe named Des and serves as one of Hela's primary enforcers.",
     series: [],
@@ -2091,7 +2076,7 @@ const CHARACTERS_DETAILS = [
     id: 54,
     name: "Dr. Erik Selvig",
     imageName: "Selvig",
-    imageURL:import("../assets/characters/all/Selvig.png"),
+    imageURL: import("../assets/characters/all/Selvig.png"),
     about:
       "Dr. Erik Selvig is a character from the Marvel Cinematic Universe movie series 'Thor' and 'Avengers'. He is portrayed as an astrophysicist and colleague of Jane Foster, aiding Thor and his allies in their battles against cosmic threats. Dr. Selvig has extensive knowledge of cosmic phenomena and plays a key role in unraveling mysteries of the universe.",
     series: [],
@@ -2112,7 +2097,7 @@ const CHARACTERS_DETAILS = [
     id: 55,
     name: "Ava Starr",
     imageName: "Starr",
-    imageURL:import("../assets/characters/all/Starr.png"),
+    imageURL: import("../assets/characters/all/Starr.png"),
     about:
       "Ava Starr is a character from the Marvel Cinematic Universe movie 'Ant-Man and the Wasp'. She is portrayed as a young woman with a molecular instability condition caused by a quantum accident. Ava becomes the villain known as Ghost, capable of phasing through objects and seeking a cure for her condition.",
     series: [],
@@ -2128,7 +2113,7 @@ const CHARACTERS_DETAILS = [
     id: 56,
     name: "Alexander Pierce",
     imageName: "Pierce",
-    imageURL:import("../assets/characters/all/Pierce.png"),
+    imageURL: import("../assets/characters/all/Pierce.png"),
     about:
       "Alexander Pierce is a character from the Marvel Cinematic Universe movie series 'Captain America'. He is portrayed as a high-ranking official within S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement, and Logistics Division) and a key figure in the organization's inner workings. Pierce is revealed to be a Hydra operative and serves as a primary antagonist in 'Captain America: The Winter Soldier'.",
     series: [],
@@ -2144,7 +2129,7 @@ const CHARACTERS_DETAILS = [
     id: 57,
     name: "Iron Monger",
     imageName: "Monger",
-    imageURL:import("../assets/characters/all/Monger.png"),
+    imageURL: import("../assets/characters/all/Monger.png"),
     about:
       "Iron Monger, also known as Obadiah Stane, is a character from the Marvel Cinematic Universe movie 'Iron Man'. He is portrayed as a business partner and mentor to Tony Stark (Iron Man) who ultimately betrays him. Stane constructs his own suit of armor, similar to Iron Man's, and becomes the villainous Iron Monger, engaging in a climactic battle with Stark.",
     series: [],
