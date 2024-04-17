@@ -11,7 +11,7 @@ export const CharacterCard = ({ name, imageURL}) => {
         className="character-card text-black my-8 mx-5  "
       >
         <img alt="Character" src={imageURL} className="h-[250px] " />
-        <h1 className=" h-[100px] py-[30px] px-5 font-extrabold rounded-br-[3.5rem] text-white">{name.toUpperCase()}</h1>
+        <h1 className="w-[187.5px] h-[100px] py-[30px] px-5 font-extrabold rounded-br-[3.5rem] text-white">{name.toUpperCase()}</h1>
       </motion.div>
     </Link>
   );
