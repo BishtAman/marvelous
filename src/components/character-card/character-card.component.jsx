@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 export const CharacterCard = ({ name, imageURL}) => {
-
+// console.log(`this is route from character card: /home/characters/${name.toLowerCase()}`)
   return (
     <Link to={`/home/characters/${name.toLowerCase()}`} > 
       <motion.div

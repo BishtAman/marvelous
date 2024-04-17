@@ -1,5 +1,16 @@
-export function SingleCharacter({ character }) {
-  // console.log(character);
+import { useParams } from "react-router-dom";
+
+export function SingleCharacter({ loadedCharacter }) {
+  const { name } = useParams(); // Access the 'name' parameter from the URL
+  const character = loadedCharacter.find(
+    (char) => char.imageName.toLowerCase() === name.toLowerCase()
+  );
+
+  // Handle case where character is not found
+  if (!character) {
+    return <div>Character not found</div>;
+  }
+
   return (
     <div className="flex mt-[20px] bg-red-600 text-white py-[40px] px-[60px] space-x-[50px]">
       <img src={character.imageURL} alt="character" className="h-[450px]" />
@@ -13,7 +24,10 @@ export function SingleCharacter({ character }) {
         <p className="text-[18px] font-light">{character.about}</p>
         <p className="font-semibold text-[18px]">
           First Appearance in :
-          <span className="italic font-light"> {character.firstAppearance}</span>
+          <span className="italic font-light">
+            {" "}
+            {character.firstAppearance}
+          </span>
         </p>
         <p className="font-semibold text-[18px]">
           Appeared in :{" "}
