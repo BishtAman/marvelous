@@ -1,19 +1,27 @@
-import { useParams } from "react-router-dom";
-
-export function SingleCharacter({ loadedCharacter }) {
-  const { name } = useParams(); // Access the 'name' parameter from the URL
-  const character = loadedCharacter.find(
-    (char) => char.imageName.toLowerCase() === name.toLowerCase()
+import CHARACTERS_DETAILS_2 from "../../data/character-data copy";
+import { useState } from "react";
+import PulseLoader from "react-spinners/PulseLoader";
+export function SingleCharacter({ char }) {
+  let character = CHARACTERS_DETAILS_2.find(
+    (characters) => characters.name === char
   );
 
-  // Handle case where character is not found
-  if (!character) {
-    return <div>Character not found</div>;
-  }
+  const [imageLoaded, setImageLoaded] = useState(false);
 
+  const handleImageLoad = () => {
+    setImageLoaded(true); // Set imageLoaded to true when the image is loaded
+  };
   return (
     <div className="flex mt-[20px] bg-red-600 text-white py-[40px] px-[60px] space-x-[50px]">
-      <img src={character.imageURL} alt="character" className="h-[450px]" />
+      {!imageLoaded && <PulseLoader className="mt-[100px]" color="#ffffff" />}
+      <img
+        src={character.imageURL}
+        style={{ display: imageLoaded ? "block" : "none" }}
+        onLoad={handleImageLoad}
+        alt="character"
+        className="h-[450px]"
+      />
+
       <section className="space-y-5">
         <h1 className="text-[70px] font-extrabold ">{character.name}</h1>
         {character.alias.map((alias, index) => (
