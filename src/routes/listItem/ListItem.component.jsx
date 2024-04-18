@@ -23,14 +23,15 @@ export const ListItem = () => {
   }, []);
 
   return (
-    <main className="h-[100vh] bg-black pt-[50px] mt-20">
-      <PageHeading heading = {FEAT}/>
-      <section className="flex">
+    <main className="h-[100%] bg-black pt-[50px] mt-20">
+      <PageHeading heading = {FEAT} padd="-5rem"/>
+      <section className="flex flex-wrap justify-around">
         {loadedHotlist.map(({ name, img, className, description }) => (
           <HotListItem
             key={name}
             name={name}
             img={img}
+            
             description={description}
             className={className}
           />
