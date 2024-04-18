@@ -16,7 +16,7 @@ export const CharacterCard = ({ name, imageURL}) => {
         whileHover={{ scale: 1.1 }}
         className="character-card text-black my-8 mx-5  "
       >
-      {!imageLoaded && <PulseLoader className="mt-[100px]" color="#ff0000" />} {/* Placeholder while image is loading */}
+      {!imageLoaded && <PulseLoader className="mx-auto" color="#ff0000" />} {/* Placeholder while image is loading */}
         <img alt="Character" src={imageURL} className={`h-[250px] ${imageLoaded ? 'block' : 'hidden'}`} onLoad={handleImageLoad}/>
         <h1 className="w-[187.5px] h-[100px] py-[30px] px-5 font-extrabold rounded-br-[3.5rem] text-white">{name.toUpperCase()}</h1>
       </motion.div>
