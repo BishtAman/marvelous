@@ -8,7 +8,7 @@ export const Characters = () => {
   return ( 
     <div className="text-black">
       <div className="mt-10">
-      <PageHeading heading={MCU} />
+      <PageHeading heading={MCU} padd='-5rem' />
       </div>
       <TeirS />
     </div>

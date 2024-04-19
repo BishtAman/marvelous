@@ -12,7 +12,7 @@ export function SingleCharacter({ char }) {
     setImageLoaded(true); // Set imageLoaded to true when the image is loaded
   };
   return (
-    <div className="flex mt-[20px] bg-red-600 text-white py-[40px] px-[60px] space-x-[50px]">
+    <div className="flex max-sm:flex-col mt-[20px] bg-red-600 text-white py-[40px] px-[60px] space-x-[50px] max-sm:space-x-[0px]">
       {!imageLoaded && <PulseLoader className="mt-[100px]" color="#ffffff" />}
       <img
         src={character.imageURL}
@@ -22,22 +22,22 @@ export function SingleCharacter({ char }) {
         className="h-[450px]"
       />
 
-      <section className="space-y-5">
-        <h1 className="text-[70px] font-extrabold ">{character.name}</h1>
+      <section className="space-y-5 max-sm:mt-[20px]">
+        <h1 className="text-[70px] max-sm:text-[30px] font-extrabold ">{character.name}</h1>
         {character.alias.map((alias, index) => (
           <span className="italic font-extralight" key={index}>
             {alias},{" "}
           </span>
         ))}
-        <p className="text-[18px] font-light">{character.about}</p>
-        <p className="font-semibold text-[18px]">
+        <p className="text-[18px] max-sm:text-[15px] font-light">{character.about}</p>
+        <p className="font-semibold text-[18px] max-sm:text-[15px]">
           First Appearance in :
           <span className="italic font-light">
             {" "}
             {character.firstAppearance}
           </span>
         </p>
-        <p className="font-semibold text-[18px]">
+        <p className="font-semibold text-[18px] max-sm:text-[15px]">
           Appeared in :{" "}
           {character.movies.map((movies) => (
             <span className="italic font-light" key={movies}>
@@ -45,7 +45,7 @@ export function SingleCharacter({ char }) {
             </span>
           ))}
         </p>
-        <p className="font-semibold text-[18px]">
+        <p className="font-semibold text-[18px] max-sm:text-[15px]">
           Powers :{" "}
           {character.powers.map((powers) => (
             <span className="italic font-light" key={powers}>
@@ -53,7 +53,7 @@ export function SingleCharacter({ char }) {
             </span>
           ))}
         </p>
-        <p className="font-semibold text-[18px]">
+        <p className="font-semibold text-[18px] max-sm:text-[15px]">
           Creators :
           <span className="italic font-light"> {character.creator}</span>
         </p>

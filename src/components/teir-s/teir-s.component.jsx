@@ -40,21 +40,21 @@ export const TeirS = () => {
   
   return (
     <div>
-      <section className="flex justify-center items-center bg-[#87b3a6d9] mb-[60px] mt-[20px] h-[80px]">
-        <button className="steir teirs" onClick={() => setCurrentTier("S Tier")}>
-          <PageHeading heading={S} className="justify-start" />
+      <section className="flex  px-5 space-x-4 bg-[#87b3a6d9] mb-[60px] mt-[20px] h-[80px]">
+        <button className=" teirs" onClick={() => setCurrentTier("S Tier")}>
+          <PageHeading heading={S} padd='-5rem' className="w-full" />
         </button>
-        <button className="ateir teirs" onClick={() => setCurrentTier("A Tier")}>
-          <PageHeading heading={A} className="justify-start" />
+        <button className=" teirs" onClick={() => setCurrentTier("A Tier")}>
+          <PageHeading heading={A} padd='-5rem' className="w-full" />
         </button>
-        <button className="bteir teirs" onClick={() => setCurrentTier("B Tier")}>
-          <PageHeading heading={B} className="justify-start" />
+        <button className=" teirs" onClick={() => setCurrentTier("B Tier")}>
+          <PageHeading heading={B} padd='-5rem' className="w-full" />
         </button>
-        <button className="cteir teirs" onClick={() => setCurrentTier("C Tier")}>
-          <PageHeading heading={C} className="justify-start" />
+        <button className=" teirs" onClick={() => setCurrentTier("C Tier")}>
+          <PageHeading heading={C} padd='-5rem' className="w-full" />
         </button>
-        <button className="dteir teirs" onClick={() => setCurrentTier("D Tier")}>
-          <PageHeading heading={D} className="justify-start" />
+        <button className=" teirs" onClick={() => setCurrentTier("D Tier")}>
+          <PageHeading heading={D} padd='-5rem' className="w-full" />
         </button>
       </section>
       <div className="flex flex-wrap justify-evenly">
