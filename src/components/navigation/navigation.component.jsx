@@ -12,7 +12,7 @@ export const Navigation = () => {
         </motion.h1>
 
         <motion.h1 whileTap={{ scale: 0.95 }} className="max-md:text-[10px] max-sm:text-[8px]" whileHover={{ scale: 1.1 }}>
-          <Link to="/test">MOVIES</Link>
+          <Link to="/home/movies">MOVIES</Link>
         </motion.h1>
 
         <Link to="/">

@@ -4,6 +4,8 @@ import { Home } from "./routes/home/home.component";
 import { Navigation } from "./components/navigation/navigation.component";
 import { Characters } from "./routes/characters/characters.component";
 import { SingleCharacter } from "./routes/single-character/single-character.component";
+import { Movies } from "./routes/movies/movies.component";
+import { SingleMovie } from "./routes/single-movie/single-movie.component";
 
 export default function App() {
   // const [loadedCharacter, setLoadedCharacter] = useState([]);
@@ -12,6 +14,9 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
+
+
+                {/* Characters */}
 
         <Route
           path={`/home/characters/${"Deadpool".toLowerCase()}`}
@@ -425,9 +430,147 @@ export default function App() {
           path={`/home/characters/${"Iron Monger".toLowerCase()}`}
           element={<SingleCharacter char="Iron Monger" />}
         />
+
+        {/* Movies */}
         
+        <Route
+          path={`/home/movies/${"Iron Man".toLowerCase()}`}
+          element={<SingleMovie movie="Iron Man" />}
+        />
+        <Route
+          path={`/home/movies/${"The Incredible Hulk".toLowerCase()}`}
+          element={<SingleMovie movie="The Incredible Hulk" />}
+        />
+        <Route
+          path={`/home/movies/${"Iron Man 2".toLowerCase()}`}
+          element={<SingleMovie movie="Iron Man 2" />}
+        />
+        <Route
+          path={`/home/movies/${"Thor".toLowerCase()}`}
+          element={<SingleMovie movie="Thor" />}
+        />
+        <Route
+          path={`/home/movies/${"Captain America The First Avenger".toLowerCase()}`}
+          element={<SingleMovie movie="Captain America The First Avenger" />}
+        />
+        <Route
+          path={`/home/movies/${"Marvel's The Avengers".toLowerCase()}`}
+          element={<SingleMovie movie="Marvel's The Avengers" />}
+        />
+        <Route
+          path={`/home/movies/${"Iron Man 3".toLowerCase()}`}
+          element={<SingleMovie movie="Iron Man 3" />}
+        />
+        <Route
+          path={`/home/movies/${"Thor The Dark World".toLowerCase()}`}
+          element={<SingleMovie movie="Thor The Dark World" />}
+        />
+        <Route
+          path={`/home/movies/${"Captain America The Winter Soldier".toLowerCase()}`}
+          element={<SingleMovie movie="Captain America The Winter Soldier" />}
+        />
+        <Route
+          path={`/home/movies/${"Guardians of the Galaxy".toLowerCase()}`}
+          element={<SingleMovie movie="Guardians of the Galaxy" />}
+        />
+        <Route
+          path={`/home/movies/${"Avengers Age of Ultron".toLowerCase()}`}
+          element={<SingleMovie movie="Avengers Age of Ultron" />}
+        />
+        <Route
+          path={`/home/movies/${"Ant-Man".toLowerCase()}`}
+          element={<SingleMovie movie="Ant-Man" />}
+        />
+        <Route
+          path={`/home/movies/${"Captain America  Civil War".toLowerCase()}`}
+          element={<SingleMovie movie="Captain America  Civil War" />}
+        />
+        <Route
+          path={`/home/movies/${"Doctor Strange".toLowerCase()}`}
+          element={<SingleMovie movie="Doctor Strange" />}
+        />
+        <Route
+          path={`/home/movies/${"Guardians of the Galaxy Vol. 2".toLowerCase()}`}
+          element={<SingleMovie movie="Guardians of the Galaxy Vol. 2" />}
+        />
+        <Route
+          path={`/home/movies/${"Spider-Man Homecoming".toLowerCase()}`}
+          element={<SingleMovie movie="Spider-Man Homecoming" />}
+        />
+        <Route
+          path={`/home/movies/${"Thor Ragnarok".toLowerCase()}`}
+          element={<SingleMovie movie="Thor Ragnarok" />}
+        />
+        <Route
+          path={`/home/movies/${"Black Panther".toLowerCase()}`}
+          element={<SingleMovie movie="Black Panther" />}
+        />
+        <Route
+          path={`/home/movies/${"Avengers Infinity War".toLowerCase()}`}
+          element={<SingleMovie movie="Avengers Infinity War" />}
+        />
+        <Route
+          path={`/home/movies/${"Ant-Man and the Wasp".toLowerCase()}`}
+          element={<SingleMovie movie="Ant-Man and the Wasp" />}
+        />
+        <Route
+          path={`/home/movies/${"Captain Marvel".toLowerCase()}`}
+          element={<SingleMovie movie="Captain Marvel" />}
+        />
+        <Route
+          path={`/home/movies/${"Avengers Endgame".toLowerCase()}`}
+          element={<SingleMovie movie="Avengers Endgame" />}
+        />
+        <Route
+          path={`/home/movies/${"Spider-Man Far From Home".toLowerCase()}`}
+          element={<SingleMovie movie="Spider-Man Far From Home" />}
+        />
+        <Route
+          path={`/home/movies/${"Black Widow".toLowerCase()}`}
+          element={<SingleMovie movie="Black Widow" />}
+        />
+        <Route
+          path={`/home/movies/${"Shang-Chi and the Legend of the Ten Rings".toLowerCase()}`}
+          element={<SingleMovie movie="Shang-Chi and the Legend of the Ten Rings" />}
+        />
+        <Route
+          path={`/home/movies/${"Eternals".toLowerCase()}`}
+          element={<SingleMovie movie="Eternals" />}
+        />
+        <Route
+          path={`/home/movies/${"Spider-Man No Way Home".toLowerCase()}`}
+          element={<SingleMovie movie="Spider-Man No Way Home" />}
+        />
+        <Route
+          path={`/home/movies/${"Doctor Strange in the Multiverse of Madness".toLowerCase()}`}
+          element={<SingleMovie movie="Doctor Strange in the Multiverse of Madness" />}
+        />
+        <Route
+          path={`/home/movies/${"Thor Love and Thunder".toLowerCase()}`}
+          element={<SingleMovie movie="Thor Love and Thunder" />}
+        />
+        <Route
+          path={`/home/movies/${"Black Panther Wakanda Forever".toLowerCase()}`}
+          element={<SingleMovie movie="Black Panther Wakanda Forever" />}
+        />
+        <Route
+          path={`/home/movies/${"Ant-Man and the Wasp Quantumania".toLowerCase()}`}
+          element={<SingleMovie movie="Ant-Man and the Wasp Quantumania" />}
+        />
+        <Route
+          path={`/home/movies/${"Guardians of the Galaxy Vol. 3".toLowerCase()}`}
+          element={<SingleMovie movie="Guardians of the Galaxy Vol. 3" />}
+        />
+        <Route
+          path={`/home/movies/${"The Marvels".toLowerCase()}`}
+          element={<SingleMovie movie="The Marvels" />}
+        />
+
+
+
 
         <Route path="/home/characters" element={<Characters />} />
+        <Route path="/home/movies" element={<Movies />} />
       </Route>
     </Routes>
   );

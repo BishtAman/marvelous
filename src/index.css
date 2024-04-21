@@ -44,6 +44,9 @@ body {
 .character-card h1 {
 background-color: red;
 }
+.movies-card h1 {
+background-color: rgb(105, 19, 255);
+}
 
 .character-card {
 

@@ -42,19 +42,19 @@ export const TeirS = () => {
     <div>
       <section className="flex  px-5 space-x-4 bg-[#87b3a6d9] mb-[60px] mt-[20px] h-[80px]">
         <button className=" teirs" onClick={() => setCurrentTier("S Tier")}>
-          <PageHeading heading={S} padd='-5rem' className="w-full" />
+          <PageHeading heading={S} padd='-5rem' className="w-full justify-center" />
         </button>
         <button className=" teirs" onClick={() => setCurrentTier("A Tier")}>
-          <PageHeading heading={A} padd='-5rem' className="w-full" />
+          <PageHeading heading={A} padd='-5rem' className="w-full justify-center" />
         </button>
         <button className=" teirs" onClick={() => setCurrentTier("B Tier")}>
-          <PageHeading heading={B} padd='-5rem' className="w-full" />
+          <PageHeading heading={B} padd='-5rem' className="w-full justify-center" />
         </button>
         <button className=" teirs" onClick={() => setCurrentTier("C Tier")}>
-          <PageHeading heading={C} padd='-5rem' className="w-full" />
+          <PageHeading heading={C} padd='-5rem' className="w-full justify-center" />
         </button>
         <button className=" teirs" onClick={() => setCurrentTier("D Tier")}>
-          <PageHeading heading={D} padd='-5rem' className="w-full" />
+          <PageHeading heading={D} padd='-5rem' className="w-full justify-center" />
         </button>
       </section>
       <div className="flex flex-wrap justify-evenly">
