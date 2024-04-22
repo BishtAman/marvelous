@@ -49,6 +49,9 @@ background-color: red;
 .movies-card h1 {
 background-color: rgb(105, 19, 255);
 }
+.shows-card h1 {
+background-color: rgb(139, 24, 154);
+}
 
 .character-card {
 

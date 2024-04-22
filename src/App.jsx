@@ -6,6 +6,8 @@ import { Characters } from "./routes/characters/characters.component";
 import { SingleCharacter } from "./routes/single-character/single-character.component";
 import { Movies } from "./routes/movies/movies.component";
 import { SingleMovie } from "./routes/single-movie/single-movie.component";
+import { Shows } from "./routes/shows/shows.component";
+import { SingleShow } from "./routes/single-show/single-show.component";
 
 export default function App() {
   // const [loadedCharacter, setLoadedCharacter] = useState([]);
@@ -568,10 +570,56 @@ export default function App() {
 
 
 
+        {/* TV SHOWS */}
+
+
+        <Route
+          path={`/home/shows/${"Agents of S.H.I.E.L.D.".toLowerCase()}`}
+          element={<SingleShow show="Agents of S.H.I.E.L.D." />}
+        />
+        <Route
+          path={`/home/shows/${"Agent Carter".toLowerCase()}`}
+          element={<SingleShow show="Agent Carter" />}
+        />
+        <Route
+          path={`/home/shows/${"The Falcon and the Winter Soldier".toLowerCase()}`}
+          element={<SingleShow show="The Falcon and the Winter Soldier" />}
+        />
+        <Route
+          path={`/home/shows/${"WandaVision".toLowerCase()}`}
+          element={<SingleShow show="WandaVision" />}
+        />
+        <Route
+          path={`/home/shows/${"Loki".toLowerCase()}`}
+          element={<SingleShow show="Loki" />}
+        />
+        <Route
+          path={`/home/shows/${"Hawkeye".toLowerCase()}`}
+          element={<SingleShow show="Hawkeye" />}
+        />
+        <Route
+          path={`/home/shows/${"Ms. Marvel".toLowerCase()}`}
+          element={<SingleShow show="Ms. Marvel" />}
+        />
+        <Route
+          path={`/home/shows/${"She-Hulk Attorney at Law".toLowerCase()}`}
+          element={<SingleShow show="She-Hulk Attorney at Law" />}
+        />
+        <Route
+          path={`/home/shows/${"Moon Knight".toLowerCase()}`}
+          element={<SingleShow show="Moon Knight" />}
+        />
+        <Route
+          path={`/home/shows/${"What If".toLowerCase()}`}
+          element={<SingleShow show="What If" />}
+        />
+
 
         <Route path="/home/characters" element={<Characters />} />
         <Route path="/home/movies" element={<Movies />} />
+        <Route path="/home/shows" element={<Shows />} />
       </Route>
     </Routes>
   );
 }
+ 
