@@ -10,6 +10,7 @@ const MOVIES_DATA2 = [
     director: "Jon Favreau",
     boxOffice: "$585.2 million",
     imdbRating: "7.9/10",
+    trailer:"https://www.youtube.com/embed/8ugaeA-nMTc?si=cdvf1fr6AjpkGf1o",
   },
   {
     movieName: "The Incredible Hulk",
@@ -22,6 +23,7 @@ const MOVIES_DATA2 = [
     director: "Louis Leterrier",
     boxOffice: "$264.8 million",
     imdbRating: "6.7/10",
+    trailer:"https://www.youtube.com/embed/xbqNb2PFKKA?si=M5eANMAt84_kOpIm",
   },
   {
     movieName: "Iron Man 2",
@@ -34,6 +36,7 @@ const MOVIES_DATA2 = [
     director: "Jon Favreau",
     boxOffice: "$623.9 million",
     imdbRating: "7.0/10",
+    trailer:"https://www.youtube.com/embed/wKtcmiifycU?si=_Ox8gYP__U8JntoU",
   },
   {
     movieName: "Thor",
@@ -46,6 +49,7 @@ const MOVIES_DATA2 = [
     director: "Kenneth Branagh",
     boxOffice: "$449.3 million",
     imdbRating: "7.0/10",
+    trailer:"https://www.youtube.com/embed/JOddp-nlNvQ?si=cuABBkFNbAcoRodm",
   },
   {
     movieName: "Captain America The First Avenger",
@@ -60,6 +64,7 @@ const MOVIES_DATA2 = [
     director: "Joe Johnston",
     boxOffice: "$370.6 million",
     imdbRating: "6.9/10",
+    trailer:"https://www.youtube.com/embed/JerVrbLldXw?si=3d2_dX2KeAM5igYh",
   },
   {
     movieName: "Marvel's The Avengers",
@@ -79,6 +84,7 @@ const MOVIES_DATA2 = [
     director: "Joss Whedon",
     boxOffice: "$1.518 billion",
     imdbRating: "8.0/10",
+    trailer:"https://www.youtube.com/embed/eOrNdBpGMv8?si=_SB0oH89b-C0hkc2",
   },
 
   {
@@ -92,6 +98,7 @@ const MOVIES_DATA2 = [
     director: "Shane Black",
     boxOffice: "$1.215 billion",
     imdbRating: "7.1/10",
+    trailer:"https://www.youtube.com/embed/Ke1Y3P9D0Bc?si=lAhwHU9L6NTBBjr7",
   },
   {
     movieName: "Thor The Dark World",
@@ -104,6 +111,7 @@ const MOVIES_DATA2 = [
     director: "Alan Taylor",
     boxOffice: "$644.6 million",
     imdbRating: "6.9/10",
+    trailer:"https://www.youtube.com/embed/npvJ9FTgZbM?si=DQMSoEyc6kfqbLzr",
   },
   {
     movieName: "Captain America The Winter Soldier",
@@ -122,6 +130,7 @@ const MOVIES_DATA2 = [
     director: "Anthony Russo, Joe Russo",
     boxOffice: "$714.3 million",
     imdbRating: "7.7/10",
+    trailer:"https://www.youtube.com/embed/tbayiPxkUMM?si=5aaPLR8nvhEjrQjB",
   },
   {
     movieName: "Guardians of the Galaxy",
@@ -140,6 +149,7 @@ const MOVIES_DATA2 = [
     director: "James Gunn",
     boxOffice: "$773.3 million",
     imdbRating: "8.0/10",
+    trailer:"https://www.youtube.com/embed/d96cjJhvlMA?si=1gYpYNDNDtua8ttK",
   },
   {
     movieName: "Avengers Age of Ultron",
@@ -159,6 +169,7 @@ const MOVIES_DATA2 = [
     director: "Joss Whedon",
     boxOffice: "$1.405 billion",
     imdbRating: "7.3/10",
+    trailer:"https://www.youtube.com/embed/tmeOjFno6Do?si=fg4UzUmjLXiDACjl",
   },
   {
     movieName: "Ant-Man",
@@ -171,6 +182,7 @@ const MOVIES_DATA2 = [
     director: "Peyton Reed",
     boxOffice: "$519.3 million",
     imdbRating: "7.3/10",
+    trailer:"https://www.youtube.com/embed/pWdKf3MneyI?si=1CkUnE54mOVIAMih",
   },
 
   {
@@ -190,6 +202,7 @@ const MOVIES_DATA2 = [
     director: "Anthony Russo, Joe Russo",
     boxOffice: "$1.153 billion",
     imdbRating: "7.8/10",
+    trailer:"https://www.youtube.com/embed/43NWzay3W4s?si=hlDViW_84MR6Ef_Q",
   },
   {
     movieName: "Doctor Strange",
@@ -207,6 +220,7 @@ const MOVIES_DATA2 = [
     director: "Scott Derrickson",
     boxOffice: "$677.7 million",
     imdbRating: "7.5/10",
+    trailer:"https://www.youtube.com/embed/h7gvFravm4A?si=X6LtCZDZNIH8nLon",
   },
   {
     movieName: "Guardians of the Galaxy Vol. 2",
@@ -225,6 +239,7 @@ const MOVIES_DATA2 = [
     director: "James Gunn",
     boxOffice: "$863.8 million",
     imdbRating: "7.6/10",
+    trailer:"https://www.youtube.com/embed/dW1BIid8Osg?si=u9-p2Ns8zX3X-0YR",
   },
   {
     movieName: "Spider-Man Homecoming",
@@ -241,6 +256,7 @@ const MOVIES_DATA2 = [
     director: "Jon Watts",
     boxOffice: "$880.2 million",
     imdbRating: "7.4/10",
+    trailer:"https://www.youtube.com/embed/DiTECkLZ8HM?si=IzqvTHREKLCinL4g",
   },
   {
     movieName: "Thor Ragnarok",
@@ -253,6 +269,7 @@ const MOVIES_DATA2 = [
     director: "Taika Waititi",
     boxOffice: "$854 million",
     imdbRating: "7.9/10",
+    trailer:"https://www.youtube.com/embed/v7MGUNV8MxU?si=ZZzTo3X3KsJc4ld_",
   },
   {
     movieName: "Black Panther",
@@ -270,6 +287,7 @@ const MOVIES_DATA2 = [
     director: "Ryan Coogler",
     boxOffice: "$1.346 billion",
     imdbRating: "7.3/10",
+    trailer:"https://www.youtube.com/embed/xjDjIWPwcPU?si=T2JaZzhSksvk32Tn",
   },
   {
     movieName: "Avengers Infinity War",
@@ -290,6 +308,7 @@ const MOVIES_DATA2 = [
     director: "Anthony Russo, Joe Russo",
     boxOffice: "$2.048 billion",
     imdbRating: "8.4/10",
+    trailer:"https://www.youtube.com/embed/6ZfuNTqbHE8?si=dOsGk6HpdKfouILY",
   },
   {
     movieName: "Ant-Man and the Wasp",
@@ -307,6 +326,7 @@ const MOVIES_DATA2 = [
     director: "Peyton Reed",
     boxOffice: "$622.7 million",
     imdbRating: "7.1/10",
+    trailer:"https://www.youtube.com/embed/8_rTIAOohas?si=5PXepYkmPrDl7FJ0",
   },
   {
     movieName: "Captain Marvel",
@@ -324,6 +344,7 @@ const MOVIES_DATA2 = [
     director: "Anna Boden, Ryan Fleck",
     boxOffice: "$1.128 billion",
     imdbRating: "6.8/10",
+    trailer:"https://www.youtube.com/embed/Z1BCujX3pw8?si=28b94gVzeLkX85aK",
   },
   {
     movieName: "Avengers Endgame",
@@ -343,6 +364,7 @@ const MOVIES_DATA2 = [
     director: "Anthony Russo, Joe Russo",
     boxOffice: "$2.798 billion",
     imdbRating: "8.4/10",
+    trailer:"https://www.youtube.com/embed/TcMBFSGVi1c?si=RG01W8ruoIhQoAb2",
   },
   {
     movieName: "Spider-Man Far From Home",
@@ -360,6 +382,7 @@ const MOVIES_DATA2 = [
     director: "Jon Watts",
     boxOffice: "$1.131 billion",
     imdbRating: "7.5/10",
+    trailer:"https://www.youtube.com/embed/Nt9L1jCKGnE?si=FHhDHykiaf1aMUoy",
   },
 
   {
@@ -377,6 +400,7 @@ const MOVIES_DATA2 = [
     director: "Cate Shortland",
     boxOffice: "$379.6 million",
     imdbRating: "7.4/10",
+    trailer:"https://www.youtube.com/embed/ybji16u608U?si=POeNoEdvR3iTgwQL",
   },
   {
     movieName: "Shang-Chi and the Legend of the Ten Rings",
@@ -391,6 +415,7 @@ const MOVIES_DATA2 = [
     director: "Destin Daniel Cretton",
     boxOffice: "$430.3 million",
     imdbRating: "7.3/10",
+    trailer:"https://www.youtube.com/embed/8YjFbMbfXaQ?si=Yb6IP_S95nZbFno0",
   },
   {
     movieName: "Eternals",
@@ -403,6 +428,7 @@ const MOVIES_DATA2 = [
     director: "Chloé Zhao",
     boxOffice: "$402.2 million",
     imdbRating: "6.8/10",
+    trailer:"https://www.youtube.com/embed/x_me3xsvDgk?si=Sjx57xmvXSyb7y_5",
   },
   {
     movieName: "Spider-Man No Way Home",
@@ -420,6 +446,7 @@ const MOVIES_DATA2 = [
     director: "Jon Watts",
     boxOffice: "$1.907 billion",
     imdbRating: "8.4/10",
+    trailer:"https://www.youtube.com/embed/JfVOs4VSpmA?si=7e_8ZPfUzcKcY1AY",
   },
   {
     movieName: "Doctor Strange in the Multiverse of Madness",
@@ -439,6 +466,7 @@ const MOVIES_DATA2 = [
     director: "Sam Raimi",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/aWzlQ2N6qqg?si=fzpxrE8B9E7v-Lm-",
   },
   {
     movieName: "Thor Love and Thunder",
@@ -451,6 +479,7 @@ const MOVIES_DATA2 = [
     director: "Taika Waititi",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/Go8nTmfrQd8?si=cUQ5TJwjgCLpm0hi",
   },
   {
     movieName: "Black Panther Wakanda Forever",
@@ -463,6 +492,7 @@ const MOVIES_DATA2 = [
     director: "Ryan Coogler",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/_Z3QKkl1WyM?si=_Q-IcrurvBMYO9_m",
   },
 
   {
@@ -483,6 +513,7 @@ const MOVIES_DATA2 = [
     director: "Peyton Reed",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/ZlNFpri-Y40?si=AAGHPHM0de-gVMjj",
   },
   {
     movieName: "Guardians of the Galaxy Vol. 3",
@@ -501,6 +532,7 @@ const MOVIES_DATA2 = [
     director: "James Gunn",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/JqcncLPi9zw?si=ukPGegV06OP5PSYY",
   },
   {
     movieName: "The Marvels",
@@ -517,6 +549,7 @@ const MOVIES_DATA2 = [
     director: "Nia DaCosta",
     boxOffice: "TBD",
     imdbRating: "TBD",
+    trailer:"https://www.youtube.com/embed/wS_qbDztgVY?si=Snu_H_K0_FVioiqg",
   },
 ];
 
